@@ -1,0 +1,11 @@
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Logica\bin\Debug\Logica.dll
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Logica\bin\Debug\Logica.pdb
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Logica\bin\Debug\Datos.dll
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Logica\bin\Debug\Entidad.dll
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Logica\bin\Debug\Datos.pdb
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Logica\bin\Debug\Entidad.pdb
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Logica\obj\Debug\Logica.dll
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Logica\obj\Debug\Logica.pdb

@@ -1,0 +1,9 @@
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Datos\bin\Debug\Datos.dll
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Datos\bin\Debug\Datos.pdb
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Datos\bin\Debug\Entidad.dll
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Datos\bin\Debug\Entidad.pdb
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Datos\obj\Debug\Datos.dll
+C:\Users\Hugo Paz\Desktop\Repositorio C#\Pulsaciones_Por_Capas\Datos\obj\Debug\Datos.pdb
