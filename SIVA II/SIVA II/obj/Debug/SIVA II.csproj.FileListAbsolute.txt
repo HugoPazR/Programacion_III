@@ -1,0 +1,8 @@
+C:\Users\Hugo Paz\Desktop\Repositorio C#\SIVA II\SIVA II\obj\Debug\SIVA II.csproj.AssemblyReference.cache
+C:\Users\Hugo Paz\Desktop\Repositorio C#\SIVA II\SIVA II\obj\Debug\SIVA II.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hugo Paz\Desktop\Repositorio C#\SIVA II\SIVA II\obj\Debug\SIVA II.csproj.CoreCompileInputs.cache
+C:\Users\Hugo Paz\Desktop\Repositorio C#\SIVA II\SIVA II\bin\Debug\SIVA II.exe.config
+C:\Users\Hugo Paz\Desktop\Repositorio C#\SIVA II\SIVA II\bin\Debug\SIVA II.exe
+C:\Users\Hugo Paz\Desktop\Repositorio C#\SIVA II\SIVA II\bin\Debug\SIVA II.pdb
+C:\Users\Hugo Paz\Desktop\Repositorio C#\SIVA II\SIVA II\obj\Debug\SIVA II.exe
+C:\Users\Hugo Paz\Desktop\Repositorio C#\SIVA II\SIVA II\obj\Debug\SIVA II.pdb
