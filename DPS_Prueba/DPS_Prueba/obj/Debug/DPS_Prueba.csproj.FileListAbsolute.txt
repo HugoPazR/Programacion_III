@@ -1,0 +1,8 @@
+C:\Users\Hugo Paz\Desktop\Bots azure\DPS_Prueba\DPS_Prueba\bin\Debug\DPS_Prueba.exe.config
+C:\Users\Hugo Paz\Desktop\Bots azure\DPS_Prueba\DPS_Prueba\bin\Debug\DPS_Prueba.exe
+C:\Users\Hugo Paz\Desktop\Bots azure\DPS_Prueba\DPS_Prueba\bin\Debug\DPS_Prueba.pdb
+C:\Users\Hugo Paz\Desktop\Bots azure\DPS_Prueba\DPS_Prueba\obj\Debug\DPS_Prueba.csproj.AssemblyReference.cache
+C:\Users\Hugo Paz\Desktop\Bots azure\DPS_Prueba\DPS_Prueba\obj\Debug\DPS_Prueba.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hugo Paz\Desktop\Bots azure\DPS_Prueba\DPS_Prueba\obj\Debug\DPS_Prueba.csproj.CoreCompileInputs.cache
+C:\Users\Hugo Paz\Desktop\Bots azure\DPS_Prueba\DPS_Prueba\obj\Debug\DPS_Prueba.exe
+C:\Users\Hugo Paz\Desktop\Bots azure\DPS_Prueba\DPS_Prueba\obj\Debug\DPS_Prueba.pdb
