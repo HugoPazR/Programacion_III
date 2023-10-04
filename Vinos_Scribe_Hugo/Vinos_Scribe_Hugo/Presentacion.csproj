@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calificaciones.Designer.cs">
+      <DependentUpon>Calificaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestion_De_Vinos.cs">
       <SubType>Form</SubType>
     </Compile>
