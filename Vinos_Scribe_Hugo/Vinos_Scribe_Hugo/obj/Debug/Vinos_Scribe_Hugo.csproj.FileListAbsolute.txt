@@ -1,0 +1,11 @@
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Vinos_Scribe_Hugo.exe.config
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Vinos_Scribe_Hugo.exe
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Vinos_Scribe_Hugo.pdb
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.csproj.AssemblyReference.cache
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestion_De_Usuarios.resources
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Properties.Resources.resources
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.csproj.GenerateResource.cache
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.csproj.CoreCompileInputs.cache
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.exe
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.pdb
