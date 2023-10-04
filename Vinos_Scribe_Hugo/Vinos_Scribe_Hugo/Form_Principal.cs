@@ -10,10 +10,12 @@ using System.Windows.Forms;
 
 namespace Vinos_Scribe_Hugo
 {
-    public partial class Form1 : Form
+    public partial class Form_Principal : Form
     {
         Gestion_De_Usuarios Gestion_Usuario = new Gestion_De_Usuarios();
-        public Form1()
+        Gestion_De_Vinos Gestion_Vinos = new Gestion_De_Vinos();
+         
+        public Form_Principal()
         {
             InitializeComponent();
         }
@@ -25,6 +27,16 @@ namespace Vinos_Scribe_Hugo
         private void Tools_BTN_GestionU_Click(object sender, EventArgs e)
         {
             AbrirForms_Gestion(Gestion_Usuario);
+        }
+
+        private void Form_Principal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ools_BTN_GestionU_Click(object sender, EventArgs e)
+        {
+            AbrirForms_Gestion(Gestion_Vinos);
         }
     }
 }
