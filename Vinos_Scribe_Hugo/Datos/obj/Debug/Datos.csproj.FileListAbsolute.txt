@@ -1,0 +1,10 @@
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Datos.exe.config
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Datos.exe
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Datos.pdb
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Entidad.dll
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Entidad.pdb
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.exe
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.pdb

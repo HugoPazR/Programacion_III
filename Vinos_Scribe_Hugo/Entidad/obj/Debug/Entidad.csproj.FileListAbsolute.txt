@@ -1,0 +1,6 @@
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Entidad\bin\Debug\Entidad.dll
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Entidad\bin\Debug\Entidad.pdb
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Entidad\obj\Debug\Entidad.dll
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Entidad\obj\Debug\Entidad.pdb

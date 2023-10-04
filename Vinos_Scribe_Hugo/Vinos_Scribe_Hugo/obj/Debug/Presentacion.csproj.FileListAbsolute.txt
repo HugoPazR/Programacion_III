@@ -1,0 +1,15 @@
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Vinos_Scribe_Hugo.exe.config
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Vinos_Scribe_Hugo.exe
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Vinos_Scribe_Hugo.pdb
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Entidad.dll
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Logica.dll
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Entidad.pdb
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Logica.pdb
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestion_De_Usuarios.resources
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Properties.Resources.resources
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.exe
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.pdb
