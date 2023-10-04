@@ -21,5 +21,10 @@ namespace Vinos_Scribe_Hugo
         {
 
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
