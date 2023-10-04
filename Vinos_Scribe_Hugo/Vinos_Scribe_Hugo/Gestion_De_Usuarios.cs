@@ -31,5 +31,20 @@ namespace Vinos_Scribe_Hugo
         {
 
         }
+
+        private void Gestion_De_Usuarios_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextBox_Registrar_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

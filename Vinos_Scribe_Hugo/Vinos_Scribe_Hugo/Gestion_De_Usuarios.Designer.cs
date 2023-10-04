@@ -134,6 +134,7 @@
             this.TextBox_Registrar.TabIndex = 7;
             this.TextBox_Registrar.Text = "Registrar";
             this.TextBox_Registrar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TextBox_Registrar.TextChanged += new System.EventHandler(this.TextBox_Registrar_TextChanged);
             // 
             // TextBox_Modificar
             // 
@@ -156,6 +157,7 @@
             this.textBox3.TabIndex = 9;
             this.textBox3.Text = "Eliminar";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // Gestion_De_Usuarios
             // 
@@ -170,7 +172,8 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Gestion_De_Usuarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Gestion_De_Usuarios";
+            this.Text = "VinoScribe";
+            this.Load += new System.EventHandler(this.Gestion_De_Usuarios_Load);
             this.Gbox_GU.ResumeLayout(false);
             this.Gbox_GU.PerformLayout();
             this.groupBox2.ResumeLayout(false);
