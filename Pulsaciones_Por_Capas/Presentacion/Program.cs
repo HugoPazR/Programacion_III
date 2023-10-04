@@ -127,6 +127,9 @@ namespace Presentacion
                         Console.WriteLine("Saliendo...\npulse una tecla para salir");
                         Console.ReadKey();
                         break;
+                    case 6:
+                        //Modificar(personaService);
+                        break;
                     default:
                         Console.WriteLine("VALOR FUERA DE PARAMETROS");
                         Console.ReadKey();
