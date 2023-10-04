@@ -11,6 +11,7 @@ namespace Vinos_Scribe_Hugo
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
+        
         [STAThread]
         static void Main()
         {
@@ -18,6 +19,8 @@ namespace Vinos_Scribe_Hugo
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
             Application.Run(new Gestion_De_Usuarios());
+            //mk
+            int mk;
         }
     }
 }
