@@ -47,7 +47,7 @@
             this.Lb_NombreU = new System.Windows.Forms.Label();
             this.Lb_Contra = new System.Windows.Forms.Label();
             this.Txt_Usuario = new System.Windows.Forms.TextBox();
-            this.Txt_Contra = new System.Windows.Forms.TextBox();
+            this.Txt_Contraseña = new System.Windows.Forms.TextBox();
             this.Lb_Usuario = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.Bt_Ingresar = new System.Windows.Forms.Button();
@@ -93,7 +93,9 @@
             // 
             // Bt_EliminarU
             // 
-            this.Bt_EliminarU.Location = new System.Drawing.Point(811, 474);
+            this.Bt_EliminarU.Enabled = false;
+            this.Bt_EliminarU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_EliminarU.Location = new System.Drawing.Point(811, 478);
             this.Bt_EliminarU.Name = "Bt_EliminarU";
             this.Bt_EliminarU.Size = new System.Drawing.Size(98, 31);
             this.Bt_EliminarU.TabIndex = 13;
@@ -102,7 +104,9 @@
             // 
             // Bt_ModificarU
             // 
-            this.Bt_ModificarU.Location = new System.Drawing.Point(676, 474);
+            this.Bt_ModificarU.Enabled = false;
+            this.Bt_ModificarU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_ModificarU.Location = new System.Drawing.Point(676, 478);
             this.Bt_ModificarU.Name = "Bt_ModificarU";
             this.Bt_ModificarU.Size = new System.Drawing.Size(98, 31);
             this.Bt_ModificarU.TabIndex = 12;
@@ -111,7 +115,9 @@
             // 
             // Bt_AgregarInfoU
             // 
-            this.Bt_AgregarInfoU.Location = new System.Drawing.Point(539, 474);
+            this.Bt_AgregarInfoU.Enabled = false;
+            this.Bt_AgregarInfoU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_AgregarInfoU.Location = new System.Drawing.Point(539, 478);
             this.Bt_AgregarInfoU.Name = "Bt_AgregarInfoU";
             this.Bt_AgregarInfoU.Size = new System.Drawing.Size(98, 31);
             this.Bt_AgregarInfoU.TabIndex = 11;
@@ -148,6 +154,7 @@
             // Txt_FechaU
             // 
             this.Txt_FechaU.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Txt_FechaU.Enabled = false;
             this.Txt_FechaU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_FechaU.Location = new System.Drawing.Point(233, 186);
             this.Txt_FechaU.Name = "Txt_FechaU";
@@ -157,6 +164,7 @@
             // Txt_CelularU
             // 
             this.Txt_CelularU.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Txt_CelularU.Enabled = false;
             this.Txt_CelularU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_CelularU.Location = new System.Drawing.Point(233, 147);
             this.Txt_CelularU.Name = "Txt_CelularU";
@@ -166,6 +174,7 @@
             // Txt_CorreoU
             // 
             this.Txt_CorreoU.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Txt_CorreoU.Enabled = false;
             this.Txt_CorreoU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_CorreoU.Location = new System.Drawing.Point(233, 109);
             this.Txt_CorreoU.Name = "Txt_CorreoU";
@@ -175,6 +184,7 @@
             // TxtNombreU
             // 
             this.TxtNombreU.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtNombreU.Enabled = false;
             this.TxtNombreU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNombreU.Location = new System.Drawing.Point(233, 33);
             this.TxtNombreU.Name = "TxtNombreU";
@@ -183,6 +193,7 @@
             // 
             // Cb_TipodeU
             // 
+            this.Cb_TipodeU.Enabled = false;
             this.Cb_TipodeU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cb_TipodeU.FormattingEnabled = true;
             this.Cb_TipodeU.Location = new System.Drawing.Point(233, 220);
@@ -270,14 +281,14 @@
             this.Txt_Usuario.Size = new System.Drawing.Size(183, 22);
             this.Txt_Usuario.TabIndex = 3;
             // 
-            // Txt_Contra
+            // Txt_Contraseña
             // 
-            this.Txt_Contra.Location = new System.Drawing.Point(57, 176);
-            this.Txt_Contra.Margin = new System.Windows.Forms.Padding(4);
-            this.Txt_Contra.Name = "Txt_Contra";
-            this.Txt_Contra.PasswordChar = '¤';
-            this.Txt_Contra.Size = new System.Drawing.Size(183, 22);
-            this.Txt_Contra.TabIndex = 5;
+            this.Txt_Contraseña.Location = new System.Drawing.Point(57, 176);
+            this.Txt_Contraseña.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_Contraseña.Name = "Txt_Contraseña";
+            this.Txt_Contraseña.PasswordChar = '¤';
+            this.Txt_Contraseña.Size = new System.Drawing.Size(183, 22);
+            this.Txt_Contraseña.TabIndex = 5;
             // 
             // Lb_Usuario
             // 
@@ -293,7 +304,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.Lb_Usuario);
-            this.groupBox2.Controls.Add(this.Txt_Contra);
+            this.groupBox2.Controls.Add(this.Txt_Contraseña);
             this.groupBox2.Controls.Add(this.Txt_Usuario);
             this.groupBox2.Controls.Add(this.Lb_Contra);
             this.groupBox2.Location = new System.Drawing.Point(126, 155);
@@ -313,10 +324,12 @@
             this.Bt_Ingresar.TabIndex = 7;
             this.Bt_Ingresar.Text = "Ingresar";
             this.Bt_Ingresar.UseVisualStyleBackColor = true;
+            this.Bt_Ingresar.Click += new System.EventHandler(this.Bt_Ingresar_Click);
             // 
             // TxtApellidoU
             // 
             this.TxtApellidoU.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtApellidoU.Enabled = false;
             this.TxtApellidoU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtApellidoU.Location = new System.Drawing.Point(233, 71);
             this.TxtApellidoU.Name = "TxtApellidoU";
@@ -326,6 +339,7 @@
             // Txt_InfoUsuario
             // 
             this.Txt_InfoUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Txt_InfoUsuario.Enabled = false;
             this.Txt_InfoUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_InfoUsuario.Location = new System.Drawing.Point(233, 258);
             this.Txt_InfoUsuario.Name = "Txt_InfoUsuario";
@@ -345,6 +359,7 @@
             // Txt_InfoContra
             // 
             this.Txt_InfoContra.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Txt_InfoContra.Enabled = false;
             this.Txt_InfoContra.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_InfoContra.Location = new System.Drawing.Point(233, 298);
             this.Txt_InfoContra.Name = "Txt_InfoContra";
@@ -409,7 +424,7 @@
         private System.Windows.Forms.Label Lb_NombreU;
         private System.Windows.Forms.Label Lb_Contra;
         private System.Windows.Forms.TextBox Txt_Usuario;
-        private System.Windows.Forms.TextBox Txt_Contra;
+        private System.Windows.Forms.TextBox Txt_Contraseña;
         private System.Windows.Forms.Label Lb_Usuario;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button Bt_Ingresar;
