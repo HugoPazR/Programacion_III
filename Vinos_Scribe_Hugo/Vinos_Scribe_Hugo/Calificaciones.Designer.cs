@@ -28,12 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.LbCa = new System.Windows.Forms.Label();
+            this.Gbox_GCa = new System.Windows.Forms.GroupBox();
+            this.Gbox_GCa.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // LbCa
+            // 
+            this.LbCa.AutoSize = true;
+            this.LbCa.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.LbCa.Font = new System.Drawing.Font("Rockwell", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbCa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.LbCa.Location = new System.Drawing.Point(183, 19);
+            this.LbCa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LbCa.Name = "LbCa";
+            this.LbCa.Size = new System.Drawing.Size(690, 60);
+            this.LbCa.TabIndex = 0;
+            this.LbCa.Text = "Calificaciones y Valoracion";
+            // 
+            // Gbox_GCa
+            // 
+            this.Gbox_GCa.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Gbox_GCa.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.Gbox_GCa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.Gbox_GCa.Controls.Add(this.LbCa);
+            this.Gbox_GCa.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Gbox_GCa.Location = new System.Drawing.Point(-2, 1);
+            this.Gbox_GCa.Margin = new System.Windows.Forms.Padding(4);
+            this.Gbox_GCa.Name = "Gbox_GCa";
+            this.Gbox_GCa.Padding = new System.Windows.Forms.Padding(4);
+            this.Gbox_GCa.Size = new System.Drawing.Size(1071, 100);
+            this.Gbox_GCa.TabIndex = 4;
+            this.Gbox_GCa.TabStop = false;
+            // 
+            // Calificaciones
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Calificacionescs";
+            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.Gbox_GCa);
+            this.Name = "Calificaciones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "VinoScribe";
+            this.Gbox_GCa.ResumeLayout(false);
+            this.Gbox_GCa.PerformLayout();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label LbCa;
+        private System.Windows.Forms.GroupBox Gbox_GCa;
     }
 }

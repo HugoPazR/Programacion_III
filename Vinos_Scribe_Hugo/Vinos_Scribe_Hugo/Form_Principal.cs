@@ -16,6 +16,7 @@ namespace Vinos_Scribe_Hugo
         Gestion_De_Vinos Gestion_Vinos = new Gestion_De_Vinos();
         Calificaciones Calificaciones = new Calificaciones();
         Desgustaciones Desgustaciones = new Desgustaciones();
+        Gestio_De_Bodega Gestio_De_Bodega = new Gestio_De_Bodega();
         
          
         public Form_Principal()
@@ -50,6 +51,11 @@ namespace Vinos_Scribe_Hugo
         private void Tools_BTN_Desgustacion_Click(object sender, EventArgs e)
         {
             AbrirForms_Gestion(Desgustaciones);
+        }
+
+        private void Tools_BTN_Bodega_Click(object sender, EventArgs e)
+        {
+            AbrirForms_Gestion(Gestio_De_Bodega);
         }
     }
 }

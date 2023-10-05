@@ -16,5 +16,15 @@ namespace Vinos_Scribe_Hugo
         {
             InitializeComponent();
         }
+
+        private void Gestio_De_Bodega_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lb_GestionU_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

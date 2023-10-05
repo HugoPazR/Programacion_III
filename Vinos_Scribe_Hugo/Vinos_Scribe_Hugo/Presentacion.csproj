@@ -52,6 +52,12 @@
     <Compile Include="Calificaciones.Designer.cs">
       <DependentUpon>Calificaciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="Desgustaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desgustaciones.Designer.cs">
+      <DependentUpon>Desgustaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestion_De_Vinos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,8 +76,20 @@
     <Compile Include="Gestion_De_Usuarios.Designer.cs">
       <DependentUpon>Gestion_De_Usuarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion_De_Bodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion_De_Bodega.Designer.cs">
+      <DependentUpon>Gestion_De_Bodega.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Calificaciones.resx">
+      <DependentUpon>Calificaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desgustaciones.resx">
+      <DependentUpon>Desgustaciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Principal.resx">
       <DependentUpon>Form_Principal.cs</DependentUpon>
     </EmbeddedResource>
@@ -80,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion_De_Vinos.resx">
       <DependentUpon>Gestion_De_Vinos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion_De_Bodega.resx">
+      <DependentUpon>Gestion_De_Bodega.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

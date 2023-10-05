@@ -46,5 +46,10 @@ namespace Vinos_Scribe_Hugo
         {
 
         }
+
+        private void Lb_Tipo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

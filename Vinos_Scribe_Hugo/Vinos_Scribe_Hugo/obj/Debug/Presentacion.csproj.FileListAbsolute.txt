@@ -32,3 +32,6 @@ C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scri
 C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.pdb
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Form_Principal.resources
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestion_De_Vinos.resources
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Calificaciones.resources
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Desgustaciones.resources
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestio_De_Bodega.resources

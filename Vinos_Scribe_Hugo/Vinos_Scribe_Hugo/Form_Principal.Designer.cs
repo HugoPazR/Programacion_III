@@ -34,6 +34,7 @@
             this.Tools_BTN_GestionV = new System.Windows.Forms.ToolStripButton();
             this.Tools_BTN_Desgustacion = new System.Windows.Forms.ToolStripButton();
             this.Tools_BTN_Calificacion = new System.Windows.Forms.ToolStripButton();
+            this.Tools_BTN_Bodega = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,6 +44,7 @@
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Tools_BTN_GestionU,
             this.Tools_BTN_GestionV,
+            this.Tools_BTN_Bodega,
             this.Tools_BTN_Desgustacion,
             this.Tools_BTN_Calificacion});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
@@ -69,7 +71,7 @@
             this.Tools_BTN_GestionV.Image = ((System.Drawing.Image)(resources.GetObject("Tools_BTN_GestionV.Image")));
             this.Tools_BTN_GestionV.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Tools_BTN_GestionV.Name = "Tools_BTN_GestionV";
-            this.Tools_BTN_GestionV.Size = new System.Drawing.Size(142, 29);
+            this.Tools_BTN_GestionV.Size = new System.Drawing.Size(142, 25);
             this.Tools_BTN_GestionV.Text = "Gestion de Vinos";
             this.Tools_BTN_GestionV.Click += new System.EventHandler(this.ools_BTN_GestionU_Click);
             // 
@@ -91,9 +93,20 @@
             this.Tools_BTN_Calificacion.Image = ((System.Drawing.Image)(resources.GetObject("Tools_BTN_Calificacion.Image")));
             this.Tools_BTN_Calificacion.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Tools_BTN_Calificacion.Name = "Tools_BTN_Calificacion";
-            this.Tools_BTN_Calificacion.Size = new System.Drawing.Size(120, 29);
+            this.Tools_BTN_Calificacion.Size = new System.Drawing.Size(120, 25);
             this.Tools_BTN_Calificacion.Text = "Calificaciones";
             this.Tools_BTN_Calificacion.Click += new System.EventHandler(this.Tools_BTN_Calificacion_Click);
+            // 
+            // Tools_BTN_Bodega
+            // 
+            this.Tools_BTN_Bodega.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.Tools_BTN_Bodega.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tools_BTN_Bodega.Image = ((System.Drawing.Image)(resources.GetObject("Tools_BTN_Bodega.Image")));
+            this.Tools_BTN_Bodega.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Tools_BTN_Bodega.Name = "Tools_BTN_Bodega";
+            this.Tools_BTN_Bodega.Size = new System.Drawing.Size(157, 25);
+            this.Tools_BTN_Bodega.Text = "Gestion de Bodega";
+            this.Tools_BTN_Bodega.Click += new System.EventHandler(this.Tools_BTN_Bodega_Click);
             // 
             // Form_Principal
             // 
@@ -120,6 +133,7 @@
         private System.Windows.Forms.ToolStripButton Tools_BTN_GestionV;
         private System.Windows.Forms.ToolStripButton Tools_BTN_Calificacion;
         private System.Windows.Forms.ToolStripButton Tools_BTN_Desgustacion;
+        private System.Windows.Forms.ToolStripButton Tools_BTN_Bodega;
     }
 }
 
