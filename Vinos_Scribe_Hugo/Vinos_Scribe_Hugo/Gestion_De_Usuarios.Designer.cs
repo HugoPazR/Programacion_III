@@ -63,18 +63,6 @@
             // 
             // Lb_GestionU
             // 
-<<<<<<< HEAD
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Font = new System.Drawing.Font("Rockwell", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(206, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(389, 46);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Gestión De Usuarios";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-=======
             this.Lb_GestionU.AutoSize = true;
             this.Lb_GestionU.BackColor = System.Drawing.SystemColors.HotTrack;
             this.Lb_GestionU.Font = new System.Drawing.Font("Rockwell", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -86,7 +74,6 @@
             this.Lb_GestionU.TabIndex = 0;
             this.Lb_GestionU.Text = "Gestión De Usuarios";
             this.Lb_GestionU.Click += new System.EventHandler(this.label1_Click);
->>>>>>> e4d5da7c51ae356abbf60e3f7281933e42a53172
             // 
             // Gbox_GU
             // 
@@ -404,18 +391,12 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Gestion_De_Usuarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-<<<<<<< HEAD
-            this.Text = "Gestion_De_Usuarios";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-=======
             this.Text = "VinoScribe";
             this.Load += new System.EventHandler(this.Gestion_De_Usuarios_Load);
             this.Gbox_GU.ResumeLayout(false);
             this.Gbox_GU.PerformLayout();
             this.GB_InfUsuario.ResumeLayout(false);
             this.GB_InfUsuario.PerformLayout();
->>>>>>> e4d5da7c51ae356abbf60e3f7281933e42a53172
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
