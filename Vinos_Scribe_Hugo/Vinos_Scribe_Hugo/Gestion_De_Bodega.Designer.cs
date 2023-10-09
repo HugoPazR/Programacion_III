@@ -39,10 +39,9 @@
             this.Lb_GestionByP.BackColor = System.Drawing.SystemColors.HotTrack;
             this.Lb_GestionByP.Font = new System.Drawing.Font("Rockwell", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lb_GestionByP.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Lb_GestionByP.Location = new System.Drawing.Point(107, 19);
-            this.Lb_GestionByP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lb_GestionByP.Location = new System.Drawing.Point(80, 15);
             this.Lb_GestionByP.Name = "Lb_GestionByP";
-            this.Lb_GestionByP.Size = new System.Drawing.Size(838, 60);
+            this.Lb_GestionByP.Size = new System.Drawing.Size(633, 46);
             this.Lb_GestionByP.TabIndex = 0;
             this.Lb_GestionByP.Text = "Gestión De Bodega y Proveedores";
             this.Lb_GestionByP.Click += new System.EventHandler(this.Lb_GestionU_Click);
@@ -55,20 +54,20 @@
             this.Gbox_GesstionByP.Controls.Add(this.Lb_GestionByP);
             this.Gbox_GesstionByP.Cursor = System.Windows.Forms.Cursors.Default;
             this.Gbox_GesstionByP.Location = new System.Drawing.Point(-2, 0);
-            this.Gbox_GesstionByP.Margin = new System.Windows.Forms.Padding(4);
             this.Gbox_GesstionByP.Name = "Gbox_GesstionByP";
-            this.Gbox_GesstionByP.Padding = new System.Windows.Forms.Padding(4);
-            this.Gbox_GesstionByP.Size = new System.Drawing.Size(1071, 100);
+            this.Gbox_GesstionByP.Size = new System.Drawing.Size(803, 81);
             this.Gbox_GesstionByP.TabIndex = 2;
             this.Gbox_GesstionByP.TabStop = false;
             // 
             // Gestio_De_Bodega
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Gbox_GesstionByP);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Gestio_De_Bodega";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestio_De_Bodega";
             this.Load += new System.EventHandler(this.Gestio_De_Bodega_Load);
             this.Gbox_GesstionByP.ResumeLayout(false);
