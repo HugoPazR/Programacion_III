@@ -83,13 +83,44 @@ namespace Vinos_Scribe_Hugo
         {
             if( (Usuario == Txt_Usuario.Text) && (Contraseña == Txt_Contraseña.Text))
             {
-                MessageBox.Show("Bienvenido A continuacion Registre Modifique u Elimine un usuario", "Usuario encontrado");
+                MessageBox.Show("Bienvenido A continuacion Registre, Modifique u Elimine un usuario", "Usuario encontrado");
                 Activar_Campos();
             }
             else
             {
                 MessageBox.Show("Usuario o Contraseña Incorrecta", "Usuario No Registrado");
                 Desactivar_Campos();
+            }
+        }
+
+        private void Txt_CelularU_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Txt_CelularU_MouseEnter(object sender, EventArgs e)
+        {
+            Txt_CelularU.BackColor = Color.LightGray;
+        }
+
+        private void Txt_CelularU_MouseLeave(object sender, EventArgs e)
+        {
+            Txt_CelularU.BackColor = Color.White;
+        }
+
+        private void Txt_CelularU_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if( char.IsLetter(e.KeyChar) )
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void TxtNombreU_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
             }
         }
     }
