@@ -19,3 +19,13 @@ C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\
 C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.csproj.CopyComplete
 C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.exe
 C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.pdb
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Datos.exe.config
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Datos.exe
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Datos.pdb
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Entidad.dll
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Entidad.pdb
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.exe
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.pdb

@@ -315,6 +315,7 @@
             this.Btn_Modificar.TabIndex = 5;
             this.Btn_Modificar.Text = "Modificar";
             this.Btn_Modificar.UseVisualStyleBackColor = true;
+            this.Btn_Modificar.Click += new System.EventHandler(this.Btn_Modificar_Click);
             // 
             // Btn_Eliminar
             // 
@@ -374,6 +375,7 @@
             this.Color});
             this.Tabla_Vinos.Location = new System.Drawing.Point(12, 405);
             this.Tabla_Vinos.Name = "Tabla_Vinos";
+            this.Tabla_Vinos.ReadOnly = true;
             this.Tabla_Vinos.Size = new System.Drawing.Size(741, 169);
             this.Tabla_Vinos.TabIndex = 11;
             this.Tabla_Vinos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Tabla_Vinos_CellContentClick);
@@ -382,36 +384,43 @@
             // 
             this.Nombre.HeaderText = "Nombre";
             this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
             // 
             // Presentacion
             // 
             this.Presentacion.HeaderText = "Presentacion";
             this.Presentacion.Name = "Presentacion";
+            this.Presentacion.ReadOnly = true;
             // 
             // Año_Elaboracion
             // 
             this.Año_Elaboracion.HeaderText = "Año";
             this.Año_Elaboracion.Name = "Año_Elaboracion";
+            this.Año_Elaboracion.ReadOnly = true;
             // 
             // Contenido_Azucar
             // 
             this.Contenido_Azucar.HeaderText = "Contenido De Azucar";
             this.Contenido_Azucar.Name = "Contenido_Azucar";
+            this.Contenido_Azucar.ReadOnly = true;
             // 
             // Tipo
             // 
             this.Tipo.HeaderText = "Tipo De Vino";
             this.Tipo.Name = "Tipo";
+            this.Tipo.ReadOnly = true;
             // 
             // Lugar_de_Origen
             // 
             this.Lugar_de_Origen.HeaderText = "Origen";
             this.Lugar_de_Origen.Name = "Lugar_de_Origen";
+            this.Lugar_de_Origen.ReadOnly = true;
             // 
             // Color
             // 
             this.Color.HeaderText = "Color";
             this.Color.Name = "Color";
+            this.Color.ReadOnly = true;
             // 
             // Gestion_De_Vinos
             // 

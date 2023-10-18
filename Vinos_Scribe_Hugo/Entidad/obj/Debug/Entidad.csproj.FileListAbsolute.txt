@@ -10,3 +10,9 @@ C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Entidad\ob
 C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
 C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Entidad\obj\Debug\Entidad.dll
 C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Entidad\obj\Debug\Entidad.pdb
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Entidad\bin\Debug\Entidad.dll
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Entidad\bin\Debug\Entidad.pdb
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Entidad\obj\Debug\Entidad.dll
+C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Entidad\obj\Debug\Entidad.pdb

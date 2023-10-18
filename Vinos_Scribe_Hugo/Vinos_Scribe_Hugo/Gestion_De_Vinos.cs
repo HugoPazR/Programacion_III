@@ -84,7 +84,23 @@ namespace Vinos_Scribe_Hugo
             Btn_Eliminar.Enabled = false;
             Btn_Modificar.Enabled = false;
             Btn_Examinar.Enabled = false;
+            Btn_Agregar.Enabled = true;
+            TxtNombre.Focus();
         }
+
+        private int Obtener_Posicion(string Nombre_B)
+        {
+            for (int i = 0; i < List.Count; i++)
+            {
+                Vino Vinos = List[i];
+                if (Nombre_B.Equals(Vinos.Nombre, StringComparison.OrdinalIgnoreCase))
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
+
 
         void Llenar_tabla()
         {
@@ -129,6 +145,40 @@ namespace Vinos_Scribe_Hugo
         private void Tabla_Vinos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void Btn_Modificar_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(TxtNombre.Text) || string.IsNullOrEmpty(Cb_Presentacion.Text) || string.IsNullOrEmpty(Txt_Elaboracion.Text) || string.IsNullOrEmpty(Txt_ContA.Text) || string.IsNullOrEmpty(Cb_Tipo.Text) || string.IsNullOrEmpty(Txt_Origen.Text) || string.IsNullOrEmpty(Cb_Color.Text))
+            {
+                MessageBox.Show("Hay campos vacíos, complételos para continuar.", "Error Campos Vacíos", MessageBoxButtons.OK);
+            }
+            else
+            {
+                Nombre_B = TxtNombre.Text;
+                Presentacion_B = Cb_Presentacion.SelectedItem.ToString();
+                Año_B = int.Parse(Txt_Elaboracion.Text);
+                Contenido_Azucar_B = double.Parse(Txt_ContA.Text);
+                Tipo_B = Cb_Tipo.SelectedItem.ToString();
+                Lugar_B = Txt_Origen.Text;
+                Color_B = Cb_Color.SelectedItem.ToString();
+
+                Vinos = new Vino();
+
+                Vinos.Nombre = Nombre_B;
+                Vinos.Presentacion = Presentacion_B;
+                Vinos.Año_Elaboracion = Año_B;
+                Vinos.ContenidoAzucar = Contenido_Azucar_B;
+                Vinos.Tipo = Tipo_B;
+                Vinos.LugarOrigen = Lugar_B;
+                Vinos.Color = Color_B;
+
+                int Pos = Obtener_Posicion(Nombre_B);
+                List[Pos] = Vinos;
+                MessageBox.Show("Datos almacenados correctamente", "GUARDADO", MessageBoxButtons.OK);
+                Deshabilitar_Campos();
+                Llenar_tabla();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
