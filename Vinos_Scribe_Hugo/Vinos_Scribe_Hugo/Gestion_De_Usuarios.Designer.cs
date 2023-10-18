@@ -99,6 +99,7 @@
             this.Bt_EliminarU.TabIndex = 13;
             this.Bt_EliminarU.Text = "Eliminar";
             this.Bt_EliminarU.UseVisualStyleBackColor = true;
+            this.Bt_EliminarU.Click += new System.EventHandler(this.Bt_EliminarU_Click);
             // 
             // Bt_ModificarU
             // 
@@ -111,6 +112,7 @@
             this.Bt_ModificarU.TabIndex = 12;
             this.Bt_ModificarU.Text = "Modificar";
             this.Bt_ModificarU.UseVisualStyleBackColor = true;
+            this.Bt_ModificarU.Click += new System.EventHandler(this.Bt_ModificarU_Click);
             // 
             // Bt_AgregarInfoU
             // 

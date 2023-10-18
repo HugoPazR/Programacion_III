@@ -20,12 +20,36 @@ namespace Vinos_Scribe_Hugo
         Persona Persona;
         string Nombre_GU, Apellido_GU, Correo_GU, Celular_GU
             , FechaRegistro_GU, TipoUsuario_GU, Usuario_GU, Contraseña_GU;
+        int Existe;
         public Gestion_De_Usuarios()
         {
             InitializeComponent();
         }
-        public void Limpiar_Campos() { 
-        
+        public void Cerrar_Sesion() {
+
+            DialogResult resultado = MessageBox.Show("¿Desea Cerrar Sesion?", "Pregunta", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (resultado == DialogResult.Yes)
+            {
+
+                Limpiar_Campos_Ingresar();
+                Activar_Ingresar();
+                Bt_Ingresar.Enabled = false;
+                TxtNombreU.Enabled = false;
+            }
+            else
+            {
+                TxtNombreU.Focus();
+                TxtNombreU.Enabled = true;
+                return;
+
+            }
+
+
+
+        }
+        public void Limpiar_Campos() {
+
             TxtApellidoU.Text = "";
             Txt_CelularU.Text = "";
             Txt_CorreoU.Text = "";
@@ -79,6 +103,18 @@ namespace Vinos_Scribe_Hugo
             Txt_Contraseña.Enabled = true;
             Bt_Ingresar.Enabled = true;
         }
+        private int Obtener_Posicion(string Nombre_B)
+        {
+            for (int i = 0; i < ListPersona.Count; i++)
+            {
+                Persona persona = ListPersona[i];
+                if (Nombre_B.Equals(Persona.Nombre, StringComparison.OrdinalIgnoreCase))
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -113,6 +149,83 @@ namespace Vinos_Scribe_Hugo
         {
 
         }
+
+        private void Bt_ModificarU_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(TxtNombreU.Text) || string.IsNullOrEmpty(TxtApellidoU.Text) || string.IsNullOrEmpty(Txt_CorreoU.Text) || string.IsNullOrEmpty(Txt_CelularU.Text) || string.IsNullOrEmpty(Txt_FechaU.Text) || string.IsNullOrEmpty(Cb_TipodeU.SelectedItem.ToString()) || string.IsNullOrEmpty(Txt_Usuario.Text) || string.IsNullOrEmpty(Txt_Contraseña.Text))
+            {
+                MessageBox.Show("Hay campos vacíos, complételos para continuar.", "Error Campos Vacíos", MessageBoxButtons.OK);
+            }
+            else
+            {
+                Nombre_GU = TxtNombreU.Text;
+                Apellido_GU = TxtApellidoU.Text;
+                Correo_GU = Txt_CorreoU.Text;
+                Celular_GU = Txt_CelularU.Text;
+                FechaRegistro_GU = Txt_FechaU.Text;
+                TipoUsuario_GU = Cb_TipodeU.SelectedItem.ToString();
+                Usuario_GU = Txt_InfoUsuario.Text;
+                Contraseña_GU = Txt_InfoContra.Text;
+
+                Persona = new Persona();
+
+                Persona.Nombre = Nombre_GU;
+                Persona.Apellido = Apellido_GU;
+                Persona.Correo = Correo_GU;
+                Persona.Celular = Celular_GU;
+                Persona.FechaRegistro = FechaRegistro_GU;
+                Persona.TipoUsuario = TipoUsuario_GU;
+                Persona.Usuario = Usuario_GU;
+                Persona.Contraseña = Contraseña_GU;
+
+                int Pos = Obtener_Posicion(Nombre_GU);
+                ListPersona[Pos] = Persona;
+                MessageBox.Show("Datos almacenados correctamente", "GUARDADO", MessageBoxButtons.OK);
+                Desactivar_Campos();
+                Limpiar_Campos();
+                TxtNombreU.Enabled = true;
+                Bt_AgregarInfoU.Enabled = true;
+                Bt_ModificarU.Enabled = false;
+                Bt_EliminarU.Enabled = false;
+            }
+            Cerrar_Sesion();
+        }
+
+        private void Bt_EliminarU_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(TxtNombreU.Text))
+            {
+                MessageBox.Show("Para eliminar un Usuario, El nombre del Usuario a eliminar no puede quedar vacío", "ERROR NOMBRE DE USUARIO VACÍO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                TxtNombreU.Text = "";
+                TxtNombreU.Focus();
+            }
+            else
+            {
+                Nombre_GU = TxtNombreU.Text;
+                Existe = Obtener_Posicion(Nombre_GU);
+                if (Existe == -1)
+                {
+                    MessageBox.Show("El Usuario con el nombre a eliminar no existe", "EL USUARIO NO EXISTE", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    TxtNombreU.Text = "";
+                    TxtNombreU.Focus();
+                }
+                else
+                {
+                    ListPersona.RemoveAt(Existe);
+                    MessageBox.Show("VINO ELIMINADO CORRECTAMENTE", "ELIMINADO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    TxtNombreU.Text = "";
+                    TxtNombreU.Focus();
+                    Desactivar_Campos();
+                    Limpiar_Campos();
+                    Bt_AgregarInfoU.Enabled = true;
+                    Bt_ModificarU.Enabled = false;
+                    Bt_EliminarU.Enabled = false;
+
+                }
+            }
+            Cerrar_Sesion();
+        }
+    
 
         private void Bt_Ingresar_Click(object sender, EventArgs e)
         {
@@ -194,6 +307,7 @@ namespace Vinos_Scribe_Hugo
 
                         MessageBox.Show("Nombre: " + Nombre_GU + " Encontrado\nPuede Eliminarlo o Modificarlo", "OK", MessageBoxButtons.OK);
                         Bt_AgregarInfoU.Enabled = false;
+                        TxtNombreU.Enabled = false;
                         break;
                     }
                 }
@@ -238,31 +352,13 @@ namespace Vinos_Scribe_Hugo
                         MessageBox.Show("Datos almacenados correctamente", "GUARDADO", MessageBoxButtons.OK);
                         Limpiar_Campos();
                         Desactivar_Campos();
-                        DialogResult resultado = MessageBox.Show("¿Desea Cerrar Sesion?", "Pregunta", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-                        if (resultado == DialogResult.Yes)
-                        {
-                            
-                            Limpiar_Campos_Ingresar();
-                            Activar_Ingresar();
-                        }
-                        else
-                        {
-                            TxtNombreU.Focus();
-                            TxtNombreU.Enabled = true;
-                            return;
-                            
-                        }
+                        Cerrar_Sesion();
 
                     }
 
                 }
 
             }
-
-
-
-
 
             //Nombre_GU = TxtNombreU.Text;
             //Apellido_GU = TxtApellidoU.Text;
