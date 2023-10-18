@@ -123,5 +123,10 @@ namespace Vinos_Scribe_Hugo
                 e.Handled = true;
             }
         }
+
+        private void Bt_AgregarInfoU_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

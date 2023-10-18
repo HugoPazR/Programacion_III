@@ -58,7 +58,7 @@
             this.Contenido_Azucar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Lugar_de_Origen = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Color = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Color_Dgv = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Gbox_GV.SuspendLayout();
             this.GB_InfoVino.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picture_Vino)).BeginInit();
@@ -163,6 +163,9 @@
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(85, 18);
             this.TxtNombre.TabIndex = 9;
+            this.TxtNombre.TextChanged += new System.EventHandler(this.TxtNombre_TextChanged);
+            this.TxtNombre.MouseEnter += new System.EventHandler(this.TxtNombre_MouseEnter);
+            this.TxtNombre.MouseLeave += new System.EventHandler(this.TxtNombre_MouseLeave);
             // 
             // Cb_Color
             // 
@@ -295,7 +298,7 @@
             // 
             // Btn_Agregar
             // 
-            this.Btn_Agregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Agregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Agregar.Location = new System.Drawing.Point(58, 375);
             this.Btn_Agregar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Agregar.Name = "Btn_Agregar";
@@ -308,6 +311,7 @@
             // Btn_Modificar
             // 
             this.Btn_Modificar.Enabled = false;
+            this.Btn_Modificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Modificar.Location = new System.Drawing.Point(150, 375);
             this.Btn_Modificar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Modificar.Name = "Btn_Modificar";
@@ -320,6 +324,7 @@
             // Btn_Eliminar
             // 
             this.Btn_Eliminar.Enabled = false;
+            this.Btn_Eliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Eliminar.Location = new System.Drawing.Point(251, 375);
             this.Btn_Eliminar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Eliminar.Name = "Btn_Eliminar";
@@ -327,11 +332,12 @@
             this.Btn_Eliminar.TabIndex = 6;
             this.Btn_Eliminar.Text = "Eliminar";
             this.Btn_Eliminar.UseVisualStyleBackColor = true;
+            this.Btn_Eliminar.Click += new System.EventHandler(this.Btn_Eliminar_Click);
             // 
             // Btn_Examinar
             // 
             this.Btn_Examinar.Enabled = false;
-            this.Btn_Examinar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Examinar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Examinar.Location = new System.Drawing.Point(356, 374);
             this.Btn_Examinar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Examinar.Name = "Btn_Examinar";
@@ -372,7 +378,7 @@
             this.Contenido_Azucar,
             this.Tipo,
             this.Lugar_de_Origen,
-            this.Color});
+            this.Color_Dgv});
             this.Tabla_Vinos.Location = new System.Drawing.Point(12, 405);
             this.Tabla_Vinos.Name = "Tabla_Vinos";
             this.Tabla_Vinos.ReadOnly = true;
@@ -416,11 +422,11 @@
             this.Lugar_de_Origen.Name = "Lugar_de_Origen";
             this.Lugar_de_Origen.ReadOnly = true;
             // 
-            // Color
+            // Color_Dgv
             // 
-            this.Color.HeaderText = "Color";
-            this.Color.Name = "Color";
-            this.Color.ReadOnly = true;
+            this.Color_Dgv.HeaderText = "Color";
+            this.Color_Dgv.Name = "Color_Dgv";
+            this.Color_Dgv.ReadOnly = true;
             // 
             // Gestion_De_Vinos
             // 
@@ -484,6 +490,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Contenido_Azucar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Tipo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Lugar_de_Origen;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Color;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Color_Dgv;
     }
 }

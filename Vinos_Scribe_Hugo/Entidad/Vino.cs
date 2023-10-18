@@ -15,7 +15,7 @@ namespace Entidad
         public double ContenidoAzucar { get; set; }
         public string Tipo { get; set; }
         public string LugarOrigen { get; set; }
-        public string Color { get; set; }
+        public string Color_V { get; set; }
 
         public Vino(string nombre, string presentacion, int año_Elaboracion, double contenidoAzucar, string tipo, string lugarOrigen, string color)
         {
@@ -25,7 +25,7 @@ namespace Entidad
             ContenidoAzucar = contenidoAzucar;
             Tipo = tipo;
             LugarOrigen = lugarOrigen;
-            Color = color;
+            Color_V = color;
         }
 
         public Vino()

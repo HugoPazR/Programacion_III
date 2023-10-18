@@ -27,7 +27,7 @@ namespace Vinos_Scribe_Hugo
         }
         string Nombre_B, Presentacion_B, Color_B, Tipo_B, Lugar_B;
         double Contenido_Azucar_B;
-        int Año_B;
+        int Año_B, existe;
 
         void Habilitar_Campos_1()
         {
@@ -117,7 +117,7 @@ namespace Vinos_Scribe_Hugo
                     vino.ContenidoAzucar,
                     vino.Tipo,
                     vino.LugarOrigen,
-                    vino.Color
+                    vino.Color_V
                 );
             }
         }
@@ -171,13 +171,58 @@ namespace Vinos_Scribe_Hugo
                 Vinos.ContenidoAzucar = Contenido_Azucar_B;
                 Vinos.Tipo = Tipo_B;
                 Vinos.LugarOrigen = Lugar_B;
-                Vinos.Color = Color_B;
+                Vinos.Color_V = Color_B;
 
                 int Pos = Obtener_Posicion(Nombre_B);
                 List[Pos] = Vinos;
                 MessageBox.Show("Datos almacenados correctamente", "GUARDADO", MessageBoxButtons.OK);
                 Deshabilitar_Campos();
                 Llenar_tabla();
+            }
+        }
+
+        private void TxtNombre_MouseEnter(object sender, EventArgs e)
+        {
+            TxtNombre.BackColor = Color.LightGray;
+        }
+
+        private void TxtNombre_MouseLeave(object sender, EventArgs e)
+        {
+            TxtNombre.BackColor = Color.White;
+        }
+
+        private void TxtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_Eliminar_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(TxtNombre.Text))
+            {
+                MessageBox.Show("Para eliminar un vino, El nombre del vino a eliminar no puede quedar vacío", "ERROR NOMBRE DE VINO VACÍO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                TxtNombre.Text = "";
+                TxtNombre.Focus();
+            }
+            else
+            {
+                Nombre_B = TxtNombre.Text;
+                existe = Obtener_Posicion(Nombre_B);
+                if (existe == -1)
+                {
+                    MessageBox.Show("El vino con el nombre a eliminar no existe", "EL VINO NO EXISTE", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    TxtNombre.Text = "";
+                    TxtNombre.Focus();
+                }
+                else
+                {
+                    List.RemoveAt(existe);
+                    MessageBox.Show("VINO ELIMINADO CORRECTAMENTE", "ELIMINADO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    TxtNombre.Text = "";
+                    TxtNombre.Focus();
+                    Deshabilitar_Campos();
+                    Llenar_tabla();
+                }
             }
         }
 
@@ -229,7 +274,7 @@ namespace Vinos_Scribe_Hugo
                         Txt_ContA.Text = Vinos.ContenidoAzucar.ToString();
                         Cb_Tipo.Text = Vinos.Tipo.ToString();
                         Txt_Origen.Text = Vinos.LugarOrigen.ToString();
-                        Cb_Color.Text = Vinos.Color.ToString();
+                        Cb_Color.Text = Vinos.Color_V.ToString();
 
 
                         MessageBox.Show("Vino: " + Nombre_B + " Encontrado\nPuede Eliminarlo o Modificarlo", "OK", MessageBoxButtons.OK);
@@ -263,7 +308,7 @@ namespace Vinos_Scribe_Hugo
                         Vinos.ContenidoAzucar = Contenido_Azucar_B;
                         Vinos.Tipo = Tipo_B;
                         Vinos.LugarOrigen = Lugar_B;
-                        Vinos.Color = Color_B;
+                        Vinos.Color_V = Color_B;
                         List.Add(Vinos);
                         MessageBox.Show("Datos almacenados correctamente", "GUARDADO", MessageBoxButtons.OK);
                         Deshabilitar_Campos();

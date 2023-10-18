@@ -93,7 +93,7 @@
             this.Bt_EliminarU.Enabled = false;
             this.Bt_EliminarU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_EliminarU.Location = new System.Drawing.Point(608, 388);
-            this.Bt_EliminarU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Bt_EliminarU.Margin = new System.Windows.Forms.Padding(2);
             this.Bt_EliminarU.Name = "Bt_EliminarU";
             this.Bt_EliminarU.Size = new System.Drawing.Size(74, 25);
             this.Bt_EliminarU.TabIndex = 13;
@@ -105,7 +105,7 @@
             this.Bt_ModificarU.Enabled = false;
             this.Bt_ModificarU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_ModificarU.Location = new System.Drawing.Point(507, 388);
-            this.Bt_ModificarU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Bt_ModificarU.Margin = new System.Windows.Forms.Padding(2);
             this.Bt_ModificarU.Name = "Bt_ModificarU";
             this.Bt_ModificarU.Size = new System.Drawing.Size(74, 25);
             this.Bt_ModificarU.TabIndex = 12;
@@ -117,12 +117,13 @@
             this.Bt_AgregarInfoU.Enabled = false;
             this.Bt_AgregarInfoU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_AgregarInfoU.Location = new System.Drawing.Point(404, 388);
-            this.Bt_AgregarInfoU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Bt_AgregarInfoU.Margin = new System.Windows.Forms.Padding(2);
             this.Bt_AgregarInfoU.Name = "Bt_AgregarInfoU";
             this.Bt_AgregarInfoU.Size = new System.Drawing.Size(74, 25);
             this.Bt_AgregarInfoU.TabIndex = 11;
             this.Bt_AgregarInfoU.Text = "Registrar";
             this.Bt_AgregarInfoU.UseVisualStyleBackColor = true;
+            this.Bt_AgregarInfoU.Click += new System.EventHandler(this.Bt_AgregarInfoU_Click);
             // 
             // GB_InfUsuario
             // 
@@ -145,9 +146,9 @@
             this.GB_InfUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.216F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GB_InfUsuario.ForeColor = System.Drawing.SystemColors.ControlText;
             this.GB_InfUsuario.Location = new System.Drawing.Point(404, 108);
-            this.GB_InfUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GB_InfUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.GB_InfUsuario.Name = "GB_InfUsuario";
-            this.GB_InfUsuario.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GB_InfUsuario.Padding = new System.Windows.Forms.Padding(2);
             this.GB_InfUsuario.Size = new System.Drawing.Size(278, 275);
             this.GB_InfUsuario.TabIndex = 10;
             this.GB_InfUsuario.TabStop = false;
@@ -159,7 +160,7 @@
             this.Txt_InfoContra.Enabled = false;
             this.Txt_InfoContra.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_InfoContra.Location = new System.Drawing.Point(175, 242);
-            this.Txt_InfoContra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Txt_InfoContra.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_InfoContra.Name = "Txt_InfoContra";
             this.Txt_InfoContra.Size = new System.Drawing.Size(85, 18);
             this.Txt_InfoContra.TabIndex = 16;
@@ -181,7 +182,7 @@
             this.Txt_InfoUsuario.Enabled = false;
             this.Txt_InfoUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_InfoUsuario.Location = new System.Drawing.Point(175, 210);
-            this.Txt_InfoUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Txt_InfoUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_InfoUsuario.Name = "Txt_InfoUsuario";
             this.Txt_InfoUsuario.Size = new System.Drawing.Size(85, 18);
             this.Txt_InfoUsuario.TabIndex = 14;
@@ -203,7 +204,7 @@
             this.TxtApellidoU.Enabled = false;
             this.TxtApellidoU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtApellidoU.Location = new System.Drawing.Point(175, 58);
-            this.TxtApellidoU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtApellidoU.Margin = new System.Windows.Forms.Padding(2);
             this.TxtApellidoU.Name = "TxtApellidoU";
             this.TxtApellidoU.Size = new System.Drawing.Size(85, 18);
             this.TxtApellidoU.TabIndex = 12;
@@ -214,7 +215,7 @@
             this.Txt_FechaU.Enabled = false;
             this.Txt_FechaU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_FechaU.Location = new System.Drawing.Point(175, 151);
-            this.Txt_FechaU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Txt_FechaU.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_FechaU.Name = "Txt_FechaU";
             this.Txt_FechaU.Size = new System.Drawing.Size(85, 18);
             this.Txt_FechaU.TabIndex = 10;
@@ -225,7 +226,7 @@
             this.Txt_CelularU.Enabled = false;
             this.Txt_CelularU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_CelularU.Location = new System.Drawing.Point(175, 119);
-            this.Txt_CelularU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Txt_CelularU.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_CelularU.Name = "Txt_CelularU";
             this.Txt_CelularU.Size = new System.Drawing.Size(85, 18);
             this.Txt_CelularU.TabIndex = 11;
@@ -240,7 +241,7 @@
             this.Txt_CorreoU.Enabled = false;
             this.Txt_CorreoU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_CorreoU.Location = new System.Drawing.Point(175, 89);
-            this.Txt_CorreoU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Txt_CorreoU.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_CorreoU.Name = "Txt_CorreoU";
             this.Txt_CorreoU.Size = new System.Drawing.Size(85, 18);
             this.Txt_CorreoU.TabIndex = 10;
@@ -251,7 +252,7 @@
             this.TxtNombreU.Enabled = false;
             this.TxtNombreU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNombreU.Location = new System.Drawing.Point(175, 27);
-            this.TxtNombreU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtNombreU.Margin = new System.Windows.Forms.Padding(2);
             this.TxtNombreU.Name = "TxtNombreU";
             this.TxtNombreU.Size = new System.Drawing.Size(85, 18);
             this.TxtNombreU.TabIndex = 9;
@@ -263,7 +264,7 @@
             this.Cb_TipodeU.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.912F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cb_TipodeU.FormattingEnabled = true;
             this.Cb_TipodeU.Location = new System.Drawing.Point(175, 179);
-            this.Cb_TipodeU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Cb_TipodeU.Margin = new System.Windows.Forms.Padding(2);
             this.Cb_TipodeU.Name = "Cb_TipodeU";
             this.Cb_TipodeU.Size = new System.Drawing.Size(86, 20);
             this.Cb_TipodeU.TabIndex = 8;
@@ -386,7 +387,7 @@
             // 
             this.Bt_Ingresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.Bt_Ingresar.Location = new System.Drawing.Point(94, 349);
-            this.Bt_Ingresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Bt_Ingresar.Margin = new System.Windows.Forms.Padding(2);
             this.Bt_Ingresar.Name = "Bt_Ingresar";
             this.Bt_Ingresar.Size = new System.Drawing.Size(231, 27);
             this.Bt_Ingresar.TabIndex = 7;
