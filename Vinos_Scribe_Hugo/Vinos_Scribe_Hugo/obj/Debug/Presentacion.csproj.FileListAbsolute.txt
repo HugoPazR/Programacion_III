@@ -6,59 +6,15 @@ C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scrib
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Entidad.pdb
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Logica.pdb
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Calificaciones.resources
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Desgustaciones.resources
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Form_Principal.resources
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestion_De_Usuarios.resources
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestion_De_Vinos.resources
+C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestio_De_Bodega.resources
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Properties.Resources.resources
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.GenerateResource.cache
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.exe
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.pdb
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Vinos_Scribe_Hugo.exe.config
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Vinos_Scribe_Hugo.exe
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Vinos_Scribe_Hugo.pdb
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Entidad.dll
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Logica.dll
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Entidad.pdb
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Logica.pdb
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.AssemblyReference.cache
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestion_De_Usuarios.resources
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Properties.Resources.resources
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.GenerateResource.cache
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.CopyComplete
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.exe
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.pdb
-C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Form_Principal.resources
-C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestion_De_Vinos.resources
-C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Calificaciones.resources
-C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Desgustaciones.resources
-C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestio_De_Bodega.resources
-<<<<<<< HEAD
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Calificaciones.resources
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Desgustaciones.resources
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Form_Principal.resources
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestion_De_Vinos.resources
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestio_De_Bodega.resources
-=======
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Vinos_Scribe_Hugo.exe.config
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Vinos_Scribe_Hugo.exe
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Vinos_Scribe_Hugo.pdb
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Entidad.dll
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Logica.dll
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Entidad.pdb
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Logica.pdb
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.AssemblyReference.cache
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Calificaciones.resources
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Desgustaciones.resources
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Form_Principal.resources
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestion_De_Usuarios.resources
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestion_De_Vinos.resources
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Gestio_De_Bodega.resources
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.Properties.Resources.resources
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.GenerateResource.cache
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.CopyComplete
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.exe
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.pdb
->>>>>>> 8fad1d4bf44e5943f9e7db01b1671f2997238837

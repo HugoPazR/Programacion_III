@@ -10,27 +10,3 @@ C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Logica\obj\
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Logica\obj\Debug\Logica.csproj.CopyComplete
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Logica\obj\Debug\Logica.dll
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Logica\obj\Debug\Logica.pdb
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\bin\Debug\Logica.dll
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\bin\Debug\Logica.pdb
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\bin\Debug\Datos.exe
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\bin\Debug\Entidad.dll
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\bin\Debug\Datos.pdb
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\bin\Debug\Datos.exe.config
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\bin\Debug\Entidad.pdb
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\obj\Debug\Logica.csproj.CopyComplete
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\obj\Debug\Logica.dll
-C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\obj\Debug\Logica.pdb
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\bin\Debug\Logica.dll
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\bin\Debug\Logica.pdb
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\bin\Debug\Datos.exe
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\bin\Debug\Entidad.dll
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\bin\Debug\Datos.pdb
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\bin\Debug\Datos.exe.config
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\bin\Debug\Entidad.pdb
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\obj\Debug\Logica.csproj.CopyComplete
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\obj\Debug\Logica.dll
-C:\Users\ESTUDIANTES\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Logica\obj\Debug\Logica.pdb

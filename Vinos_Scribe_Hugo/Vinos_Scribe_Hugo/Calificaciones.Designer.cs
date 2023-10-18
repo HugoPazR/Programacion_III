@@ -39,10 +39,9 @@
             this.LbCa.BackColor = System.Drawing.SystemColors.HotTrack;
             this.LbCa.Font = new System.Drawing.Font("Rockwell", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LbCa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.LbCa.Location = new System.Drawing.Point(183, 19);
-            this.LbCa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LbCa.Location = new System.Drawing.Point(97, 16);
             this.LbCa.Name = "LbCa";
-            this.LbCa.Size = new System.Drawing.Size(690, 60);
+            this.LbCa.Size = new System.Drawing.Size(607, 53);
             this.LbCa.TabIndex = 0;
             this.LbCa.Text = "Calificaciones y Valoracion";
             // 
@@ -54,22 +53,22 @@
             this.Gbox_GCa.Controls.Add(this.LbCa);
             this.Gbox_GCa.Cursor = System.Windows.Forms.Cursors.Default;
             this.Gbox_GCa.Location = new System.Drawing.Point(-2, 1);
-            this.Gbox_GCa.Margin = new System.Windows.Forms.Padding(4);
             this.Gbox_GCa.Name = "Gbox_GCa";
-            this.Gbox_GCa.Padding = new System.Windows.Forms.Padding(4);
-            this.Gbox_GCa.Size = new System.Drawing.Size(1071, 100);
+            this.Gbox_GCa.Size = new System.Drawing.Size(803, 81);
             this.Gbox_GCa.TabIndex = 4;
             this.Gbox_GCa.TabStop = false;
             // 
             // Calificaciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Gbox_GCa);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Calificaciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VinoScribe";
+            this.Load += new System.EventHandler(this.Calificaciones_Load);
             this.Gbox_GCa.ResumeLayout(false);
             this.Gbox_GCa.PerformLayout();
             this.ResumeLayout(false);

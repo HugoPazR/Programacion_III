@@ -196,6 +196,11 @@ namespace Vinos_Scribe_Hugo
 
         }
 
+        private void Cb_Tipo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void Btn_Eliminar_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(TxtNombre.Text))
@@ -253,7 +258,7 @@ namespace Vinos_Scribe_Hugo
         {
             if (string.IsNullOrWhiteSpace(TxtNombre.Text))
             {
-                MessageBox.Show("El Nombre no puede estar vacio, or favor llene el campo nombre");
+                MessageBox.Show("El Nombre no puede estar vacio, por favor llene el campo nombre");
                 TxtNombre.Text = "";
                 TxtNombre.Focus();
             }

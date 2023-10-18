@@ -39,9 +39,9 @@
             this.LbDyC.BackColor = System.Drawing.SystemColors.HotTrack;
             this.LbDyC.Font = new System.Drawing.Font("Rockwell", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LbDyC.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.LbDyC.Location = new System.Drawing.Point(137, 15);
+            this.LbDyC.Location = new System.Drawing.Point(105, 16);
             this.LbDyC.Name = "LbDyC";
-            this.LbDyC.Size = new System.Drawing.Size(516, 46);
+            this.LbDyC.Size = new System.Drawing.Size(601, 53);
             this.LbDyC.TabIndex = 0;
             this.LbDyC.Text = "Desgustaciones y Compras";
             this.LbDyC.Click += new System.EventHandler(this.LbGestionV_Click);
@@ -66,10 +66,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Gbox_GDyC);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Desgustaciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VinoScribe";
+            this.Load += new System.EventHandler(this.Desgustaciones_Load);
             this.Gbox_GDyC.ResumeLayout(false);
             this.Gbox_GDyC.PerformLayout();
             this.ResumeLayout(false);

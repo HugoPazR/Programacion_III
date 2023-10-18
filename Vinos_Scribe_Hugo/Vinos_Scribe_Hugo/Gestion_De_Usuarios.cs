@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entidad;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,14 +13,34 @@ namespace Vinos_Scribe_Hugo
 {
     public partial class Gestion_De_Usuarios : Form
     {
-        string Usuario = "Hugo Paz";
-        string Contraseña = "1234";
 
+        string Usuario = "Hugo";
+        string Contraseña = "1234";
+        List<Persona> ListPersona = new List<Persona>();
+        Persona Persona;
+        string Nombre_GU, Apellido_GU, Correo_GU, Celular_GU
+            , FechaRegistro_GU, TipoUsuario_GU, Usuario_GU, Contraseña_GU;
         public Gestion_De_Usuarios()
         {
             InitializeComponent();
         }
+        public void Limpiar_Campos() { 
+        
+            TxtApellidoU.Text = "";
+            Txt_CelularU.Text = "";
+            Txt_CorreoU.Text = "";
+            Txt_FechaU.Text = "";
+            Txt_InfoContra.Text = "";
+            Txt_InfoUsuario.Text = "";
+            TxtNombreU.Text = "";
+            Cb_TipodeU.Text = "";
 
+        }
+        public void Limpiar_Campos_Ingresar()
+        {
+            Txt_Usuario.Text = "";
+            Txt_Contraseña.Text = "";
+        }
         public void Activar_Campos()
         {
             TxtNombreU.Enabled = true;
@@ -30,6 +51,9 @@ namespace Vinos_Scribe_Hugo
             Cb_TipodeU.Enabled = true;
             Txt_InfoUsuario.Enabled = true;
             Txt_InfoContra.Enabled = true;
+            Bt_AgregarInfoU.Enabled = true;
+            Bt_ModificarU.Enabled = true;
+            Bt_EliminarU.Enabled = true;
         }
 
         public void Desactivar_Campos()
@@ -43,7 +67,18 @@ namespace Vinos_Scribe_Hugo
             Txt_InfoUsuario.Enabled = false;
             Txt_InfoContra.Enabled = false;
         }
-
+        public void Desactivar_Ingresar()
+        {
+            Txt_Usuario.Enabled = false;
+            Txt_Contraseña.Enabled = false;
+            Bt_Ingresar.Enabled = false;
+        }
+        public void Activar_Ingresar()
+        {
+            Txt_Usuario.Enabled = true;
+            Txt_Contraseña.Enabled = true;
+            Bt_Ingresar.Enabled = true;
+        }
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -81,10 +116,13 @@ namespace Vinos_Scribe_Hugo
 
         private void Bt_Ingresar_Click(object sender, EventArgs e)
         {
-            if( (Usuario == Txt_Usuario.Text) && (Contraseña == Txt_Contraseña.Text))
+            if ((Usuario == Txt_Usuario.Text) && (Contraseña == Txt_Contraseña.Text))
             {
                 MessageBox.Show("Bienvenido A continuacion Registre, Modifique u Elimine un usuario", "Usuario encontrado");
-                Activar_Campos();
+                TxtNombreU.Enabled = true;
+                Bt_AgregarInfoU.Enabled = true;
+                TxtNombreU.Focus(); 
+                Desactivar_Ingresar();
             }
             else
             {
@@ -126,6 +164,127 @@ namespace Vinos_Scribe_Hugo
 
         private void Bt_AgregarInfoU_Click(object sender, EventArgs e)
         {
+
+            if (string.IsNullOrWhiteSpace(TxtNombreU.Text))
+            {
+                MessageBox.Show("El Nombre no puede estar vacio, por favor llene el campo nombre");
+                TxtNombreU.Text = "";
+                TxtNombreU.Focus();
+            }
+            else
+            {
+                Nombre_GU = TxtNombreU.Text;
+                var res = false;
+
+                for (int i = 0; i < ListPersona.Count; i++)
+                {
+                    Persona = ListPersona[i];
+                    if (Nombre_GU.Equals(Persona.Nombre, StringComparison.OrdinalIgnoreCase))
+                    {
+                        res = true;
+                        Activar_Campos();
+                        TxtNombreU.Text = Persona.Nombre;
+                        TxtApellidoU.Text = Persona.Apellido;
+                        Txt_CorreoU.Text = Persona.Correo.ToString();
+                        Txt_CelularU.Text = Persona.Celular.ToString();
+                        Txt_FechaU.Text = Persona.FechaRegistro;
+                        Cb_TipodeU.Text = Persona.TipoUsuario;
+                        Txt_InfoUsuario.Text = Persona.Usuario;
+                        Txt_InfoContra.Text = Persona.Contraseña;
+
+                        MessageBox.Show("Nombre: " + Nombre_GU + " Encontrado\nPuede Eliminarlo o Modificarlo", "OK", MessageBoxButtons.OK);
+                        Bt_AgregarInfoU.Enabled = false;
+                        break;
+                    }
+                }
+
+                if (res == false)
+                {
+                    Activar_Campos();
+                    Bt_EliminarU.Enabled = false;
+                    Bt_ModificarU.Enabled = false;
+                    TxtNombreU.Enabled = false;
+                    TxtApellidoU.Focus();
+                    
+
+                    if (string.IsNullOrEmpty(TxtNombreU.Text) || string.IsNullOrEmpty(TxtApellidoU.Text) || string.IsNullOrEmpty(Txt_CorreoU.Text) || string.IsNullOrEmpty(Txt_CelularU.Text) || string.IsNullOrEmpty(Txt_FechaU.Text) || string.IsNullOrEmpty(Cb_TipodeU.SelectedItem.ToString()) || string.IsNullOrEmpty(Txt_Usuario.Text) || string.IsNullOrEmpty(Txt_Contraseña.Text)) // Si algún campo está vacío
+                    {
+                        MessageBox.Show("Por favor, completa todos los campos.");
+                    }
+                    else
+                    {
+                        Nombre_GU = TxtNombreU.Text;
+                        Apellido_GU = TxtApellidoU.Text;
+                        Correo_GU = Txt_CorreoU.Text;
+                        Celular_GU = Txt_CelularU.Text;
+                        FechaRegistro_GU = Txt_FechaU.Text;
+                        TipoUsuario_GU = Cb_TipodeU.SelectedItem.ToString();
+                        Usuario_GU = Txt_InfoUsuario.Text;
+                        Contraseña_GU = Txt_InfoContra.Text;
+
+                        Persona = new Persona();
+
+                        Persona.Nombre = Nombre_GU;
+                        Persona.Apellido = Apellido_GU;
+                        Persona.Correo = Correo_GU;
+                        Persona.Celular = Celular_GU;
+                        Persona.FechaRegistro = FechaRegistro_GU;
+                        Persona.TipoUsuario = TipoUsuario_GU;
+                        Persona.Usuario = Usuario_GU;
+                        Persona.Contraseña = Contraseña_GU;
+
+                        
+                        ListPersona.Add(Persona);
+                        MessageBox.Show("Datos almacenados correctamente", "GUARDADO", MessageBoxButtons.OK);
+                        Limpiar_Campos();
+                        Desactivar_Campos();
+                        DialogResult resultado = MessageBox.Show("¿Desea Cerrar Sesion?", "Pregunta", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                        if (resultado == DialogResult.Yes)
+                        {
+                            
+                            Limpiar_Campos_Ingresar();
+                            Activar_Ingresar();
+                        }
+                        else
+                        {
+                            TxtNombreU.Focus();
+                            TxtNombreU.Enabled = true;
+                            return;
+                            
+                        }
+
+                    }
+
+                }
+
+            }
+
+
+
+
+
+            //Nombre_GU = TxtNombreU.Text;
+            //Apellido_GU = TxtApellidoU.Text;
+            //Correo_GU = Txt_CorreoU.Text;
+            //Celular_GU = Txt_CelularU.Text;
+            //FechaRegistro_GU = Txt_FechaU.Text;
+            //TipoUsuario_GU = Cb_TipodeU.SelectedItem.ToString();
+            //Usuario_GU = Txt_InfoUsuario.Text;
+            //Contraseña_GU = Txt_InfoContra.Text;
+
+            //if (string.IsNullOrEmpty(Nombre_GU) || string.IsNullOrEmpty(Apellido_GU) || string.IsNullOrEmpty(Correo_GU) || string.IsNullOrEmpty(Correo_GU) || string.IsNullOrEmpty(Celular_GU) || string.IsNullOrEmpty(FechaRegistro_GU) || string.IsNullOrEmpty(TipoUsuario_GU) || string.IsNullOrEmpty(Usuario_GU) || string.IsNullOrEmpty(Contraseña_GU)  ) // Si algún campo está vacío
+            //{
+            //    MessageBox.Show("Por favor, completa todos los campos.");
+            //    return; // No agregues la persona si algún campo está vacío
+            //}
+
+            //Persona = new Persona();
+
+            //List.Add(Persona);
+
+            //MessageBox.Show("Usuario Registrado Correctamente", "Usuario Registrado");
+            //Limpiar_Campos();
 
         }
     }

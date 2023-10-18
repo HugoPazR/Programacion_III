@@ -39,9 +39,9 @@
             this.Lb_GestionByP.BackColor = System.Drawing.SystemColors.HotTrack;
             this.Lb_GestionByP.Font = new System.Drawing.Font("Rockwell", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lb_GestionByP.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Lb_GestionByP.Location = new System.Drawing.Point(80, 15);
+            this.Lb_GestionByP.Location = new System.Drawing.Point(37, 16);
             this.Lb_GestionByP.Name = "Lb_GestionByP";
-            this.Lb_GestionByP.Size = new System.Drawing.Size(633, 46);
+            this.Lb_GestionByP.Size = new System.Drawing.Size(742, 53);
             this.Lb_GestionByP.TabIndex = 0;
             this.Lb_GestionByP.Text = "Gestión De Bodega y Proveedores";
             this.Lb_GestionByP.Click += new System.EventHandler(this.Lb_GestionU_Click);
@@ -65,7 +65,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Gbox_GesstionByP);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Gestio_De_Bodega";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestio_De_Bodega";

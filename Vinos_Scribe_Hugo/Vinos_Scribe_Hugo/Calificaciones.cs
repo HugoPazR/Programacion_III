@@ -16,5 +16,10 @@ namespace Vinos_Scribe_Hugo
         {
             InitializeComponent();
         }
+
+        private void Calificaciones_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

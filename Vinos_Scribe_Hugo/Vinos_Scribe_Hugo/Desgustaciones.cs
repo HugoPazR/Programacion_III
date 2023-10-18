@@ -26,5 +26,10 @@ namespace Vinos_Scribe_Hugo
         {
 
         }
+
+        private void Desgustaciones_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
