@@ -39,3 +39,6 @@ C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scri
 C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.exe
 C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\obj\Debug\Vinos_Scribe_Hugo.pdb
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Datos.exe
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Datos.pdb
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Vinos_Scribe_Hugo\bin\Debug\Datos.exe.config

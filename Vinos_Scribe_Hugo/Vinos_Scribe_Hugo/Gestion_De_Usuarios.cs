@@ -14,8 +14,8 @@ namespace Vinos_Scribe_Hugo
     public partial class Gestion_De_Usuarios : Form
     {
 
-        string Usuario = "Hugo";
-        string Contraseña = "1234";
+        //string Usuario = "Hugo";
+        //string Contraseña = "1234";
         List<Persona> ListPersona = new List<Persona>();
         Persona Persona;
         string Nombre_GU, Apellido_GU, Correo_GU, Celular_GU
@@ -44,8 +44,6 @@ namespace Vinos_Scribe_Hugo
                 return;
 
             }
-
-
 
         }
         public void Limpiar_Campos() {
@@ -229,7 +227,7 @@ namespace Vinos_Scribe_Hugo
 
         private void Bt_Ingresar_Click(object sender, EventArgs e)
         {
-            if ((Usuario == Txt_Usuario.Text) && (Contraseña == Txt_Contraseña.Text))
+            if ((Persona.Usuario == Txt_Usuario.Text) && (Persona.Contraseña == Txt_Contraseña.Text))
             {
                 MessageBox.Show("Bienvenido A continuacion Registre, Modifique u Elimine un usuario", "Usuario encontrado");
                 TxtNombreU.Enabled = true;
