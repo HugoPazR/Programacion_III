@@ -8,3 +8,14 @@ C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\D
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.csproj.CopyComplete
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.exe
 C:\Users\garav\Desktop\VinoScribe\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.pdb
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Datos.exe.config
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Datos.exe
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Datos.pdb
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Entidad.dll
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\bin\Debug\Entidad.pdb
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.exe
+C:\Users\Hugo Paz\Documents\GitHub\Programacion_III\Vinos_Scribe_Hugo\Datos\obj\Debug\Datos.pdb

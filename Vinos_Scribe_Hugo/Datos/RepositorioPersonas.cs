@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Datos;
-using Entidad;
 
-namespace Logica
+namespace Datos
 {
-    public class Class1
+    internal class RepositorioPersonas
     {
     }
 }

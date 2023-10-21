@@ -3,15 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Entidad;
-
 
 namespace Datos
 {
-    internal class Program
+    internal class Archivo
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
