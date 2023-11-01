@@ -41,13 +41,13 @@
             this.LbCa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LbCa.Location = new System.Drawing.Point(97, 16);
             this.LbCa.Name = "LbCa";
-            this.LbCa.Size = new System.Drawing.Size(607, 53);
+            this.LbCa.Size = new System.Drawing.Size(523, 46);
             this.LbCa.TabIndex = 0;
             this.LbCa.Text = "Calificaciones y Valoracion";
             // 
             // Gbox_GCa
             // 
-            this.Gbox_GCa.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Gbox_GCa.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Gbox_GCa.BackColor = System.Drawing.SystemColors.HotTrack;
             this.Gbox_GCa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Gbox_GCa.Controls.Add(this.LbCa);
@@ -64,7 +64,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Gbox_GCa);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Calificaciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VinoScribe";

@@ -1,4 +1,5 @@
 ﻿using Entidad;
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,9 +14,10 @@ namespace Vinos_Scribe_Hugo
 {
     public partial class Gestion_De_Usuarios : Form
     {
+        private Logica.PersonaService personaService = new Logica.PersonaService();
 
-        //string Usuario = "Hugo";
-        //string Contraseña = "1234";
+        string Usuario = "Hugo";
+        string Contraseña = "1234";
         List<Persona> ListPersona = new List<Persona>();
         Persona Persona;
         string Nombre_GU, Apellido_GU, Correo_GU, Celular_GU
@@ -24,6 +26,44 @@ namespace Vinos_Scribe_Hugo
         public Gestion_De_Usuarios()
         {
             InitializeComponent();
+        }
+        void Guardar(Persona persona)
+        {
+            var msg = personaService.Guardar(persona);
+            MessageBox.Show(msg);
+
+        }
+        void CargarLista()
+        {
+            //lstDpto.Items.Clear();
+            //foreach (var item in deparatamentoService.Consultar())
+            //{
+            //    lstDpto.Items.Add(item.NombreDpto);
+            //}
+
+            ListBx_Personas.DataSource = personaService.Consultar();
+            ListBx_Personas.ValueMember = "Codigo de usuario";
+            ListBx_Personas.DisplayMember = "Nombre Usuario";
+        }
+        void Buscar(string nombre)
+        {
+            var person = personaService.BuscarUsuario(nombre);
+            VerPersona(person);
+        }
+        void VerPersona(Persona persona)
+        {
+            if (persona != null)
+            {
+                Nombre_GU = TxtNombreU.Text;
+                Apellido_GU = TxtApellidoU.Text;
+                Correo_GU = Txt_CorreoU.Text;
+                Celular_GU = Txt_CelularU.Text;
+                FechaRegistro_GU = Txt_FechaU.Text;
+                TipoUsuario_GU = Cb_TipodeU.SelectedItem.ToString();
+                Usuario_GU = Txt_InfoUsuario.Text;
+                Contraseña_GU = Txt_InfoContra.Text;
+            }
+
         }
         public void Cerrar_Sesion() {
 
@@ -130,7 +170,7 @@ namespace Vinos_Scribe_Hugo
 
         private void Gestion_De_Usuarios_Load(object sender, EventArgs e)
         {
-
+            CargarLista();
         }
 
         private void TextBox_Registrar_TextChanged(object sender, EventArgs e)
@@ -223,11 +263,15 @@ namespace Vinos_Scribe_Hugo
             }
             Cerrar_Sesion();
         }
-    
+
+        private void ListBx_Personas_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Buscar(ListBx_Personas.SelectedValue.ToString());
+        }
 
         private void Bt_Ingresar_Click(object sender, EventArgs e)
         {
-            if ((Persona.Usuario == Txt_Usuario.Text) && (Persona.Contraseña == Txt_Contraseña.Text))
+            if ((/*Persona.*/Usuario == Txt_Usuario.Text) && (/*Persona.*/Contraseña == Txt_Contraseña.Text))
             {
                 MessageBox.Show("Bienvenido A continuacion Registre, Modifique u Elimine un usuario", "Usuario encontrado");
                 TxtNombreU.Enabled = true;
@@ -350,6 +394,8 @@ namespace Vinos_Scribe_Hugo
                         MessageBox.Show("Datos almacenados correctamente", "GUARDADO", MessageBoxButtons.OK);
                         Limpiar_Campos();
                         Desactivar_Campos();
+                        Guardar(new Persona(TxtNombreU.Text, TxtApellidoU.Text, Txt_CorreoU.Text, Txt_CelularU.Text, Txt_FechaU.Text, Cb_TipodeU.SelectedItem.ToString(), Txt_InfoUsuario.Text, Txt_InfoContra.Text));
+                        CargarLista();
                         Cerrar_Sesion();
 
                     }

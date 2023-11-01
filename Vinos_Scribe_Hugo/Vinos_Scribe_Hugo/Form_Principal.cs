@@ -57,5 +57,15 @@ namespace Vinos_Scribe_Hugo
         {
             AbrirForms_Gestion(Gestio_De_Bodega);
         }
+
+        private void Cuerpo_Principal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Tira_Herramientas_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

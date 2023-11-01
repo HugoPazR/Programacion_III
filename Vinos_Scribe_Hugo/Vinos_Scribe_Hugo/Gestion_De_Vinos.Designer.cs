@@ -68,21 +68,22 @@
             // 
             // LbGestionV
             // 
+            this.LbGestionV.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.LbGestionV.AutoSize = true;
-            this.LbGestionV.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.LbGestionV.BackColor = System.Drawing.Color.DarkRed;
             this.LbGestionV.Font = new System.Drawing.Font("Rockwell", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LbGestionV.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.LbGestionV.ForeColor = System.Drawing.Color.White;
             this.LbGestionV.Location = new System.Drawing.Point(226, 16);
             this.LbGestionV.Name = "LbGestionV";
-            this.LbGestionV.Size = new System.Drawing.Size(388, 53);
+            this.LbGestionV.Size = new System.Drawing.Size(332, 46);
             this.LbGestionV.TabIndex = 0;
             this.LbGestionV.Text = "Gestión De Vinos";
             this.LbGestionV.Click += new System.EventHandler(this.label1_Click);
             // 
             // Gbox_GV
             // 
-            this.Gbox_GV.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Gbox_GV.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.Gbox_GV.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Gbox_GV.BackColor = System.Drawing.Color.DarkRed;
             this.Gbox_GV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Gbox_GV.Controls.Add(this.LbGestionV);
             this.Gbox_GV.Cursor = System.Windows.Forms.Cursors.Default;
@@ -129,7 +130,7 @@
             this.Txt_Origen.Location = new System.Drawing.Point(175, 180);
             this.Txt_Origen.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_Origen.Name = "Txt_Origen";
-            this.Txt_Origen.Size = new System.Drawing.Size(85, 19);
+            this.Txt_Origen.Size = new System.Drawing.Size(85, 18);
             this.Txt_Origen.TabIndex = 10;
             // 
             // Txt_ContA
@@ -140,7 +141,7 @@
             this.Txt_ContA.Location = new System.Drawing.Point(175, 119);
             this.Txt_ContA.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_ContA.Name = "Txt_ContA";
-            this.Txt_ContA.Size = new System.Drawing.Size(85, 19);
+            this.Txt_ContA.Size = new System.Drawing.Size(85, 18);
             this.Txt_ContA.TabIndex = 11;
             // 
             // Txt_Elaboracion
@@ -151,7 +152,7 @@
             this.Txt_Elaboracion.Location = new System.Drawing.Point(175, 89);
             this.Txt_Elaboracion.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_Elaboracion.Name = "Txt_Elaboracion";
-            this.Txt_Elaboracion.Size = new System.Drawing.Size(85, 19);
+            this.Txt_Elaboracion.Size = new System.Drawing.Size(85, 18);
             this.Txt_Elaboracion.TabIndex = 10;
             // 
             // TxtNombre
@@ -161,7 +162,7 @@
             this.TxtNombre.Location = new System.Drawing.Point(175, 27);
             this.TxtNombre.Margin = new System.Windows.Forms.Padding(2);
             this.TxtNombre.Name = "TxtNombre";
-            this.TxtNombre.Size = new System.Drawing.Size(85, 19);
+            this.TxtNombre.Size = new System.Drawing.Size(85, 18);
             this.TxtNombre.TabIndex = 9;
             this.TxtNombre.TextChanged += new System.EventHandler(this.TxtNombre_TextChanged);
             this.TxtNombre.MouseEnter += new System.EventHandler(this.TxtNombre_MouseEnter);
@@ -180,7 +181,7 @@
             this.Cb_Color.Location = new System.Drawing.Point(175, 208);
             this.Cb_Color.Margin = new System.Windows.Forms.Padding(2);
             this.Cb_Color.Name = "Cb_Color";
-            this.Cb_Color.Size = new System.Drawing.Size(86, 21);
+            this.Cb_Color.Size = new System.Drawing.Size(86, 20);
             this.Cb_Color.TabIndex = 8;
             // 
             // Cb_Tipo
@@ -198,7 +199,7 @@
             this.Cb_Tipo.Location = new System.Drawing.Point(175, 152);
             this.Cb_Tipo.Margin = new System.Windows.Forms.Padding(2);
             this.Cb_Tipo.Name = "Cb_Tipo";
-            this.Cb_Tipo.Size = new System.Drawing.Size(86, 21);
+            this.Cb_Tipo.Size = new System.Drawing.Size(86, 20);
             this.Cb_Tipo.TabIndex = 8;
             this.Cb_Tipo.SelectedIndexChanged += new System.EventHandler(this.Cb_Tipo_SelectedIndexChanged);
             // 
@@ -215,7 +216,7 @@
             this.Cb_Presentacion.Location = new System.Drawing.Point(175, 56);
             this.Cb_Presentacion.Margin = new System.Windows.Forms.Padding(2);
             this.Cb_Presentacion.Name = "Cb_Presentacion";
-            this.Cb_Presentacion.Size = new System.Drawing.Size(86, 21);
+            this.Cb_Presentacion.Size = new System.Drawing.Size(86, 20);
             this.Cb_Presentacion.TabIndex = 7;
             // 
             // Lb_Color
@@ -225,7 +226,7 @@
             this.Lb_Color.Location = new System.Drawing.Point(11, 209);
             this.Lb_Color.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lb_Color.Name = "Lb_Color";
-            this.Lb_Color.Size = new System.Drawing.Size(49, 18);
+            this.Lb_Color.Size = new System.Drawing.Size(42, 16);
             this.Lb_Color.TabIndex = 6;
             this.Lb_Color.Text = "Color:";
             // 
@@ -236,7 +237,7 @@
             this.Lb_Origen.Location = new System.Drawing.Point(11, 179);
             this.Lb_Origen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lb_Origen.Name = "Lb_Origen";
-            this.Lb_Origen.Size = new System.Drawing.Size(117, 18);
+            this.Lb_Origen.Size = new System.Drawing.Size(106, 16);
             this.Lb_Origen.TabIndex = 5;
             this.Lb_Origen.Text = "Lugar de Origen:";
             // 
@@ -247,7 +248,7 @@
             this.Lb_Tipo.Location = new System.Drawing.Point(11, 150);
             this.Lb_Tipo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lb_Tipo.Name = "Lb_Tipo";
-            this.Lb_Tipo.Size = new System.Drawing.Size(41, 18);
+            this.Lb_Tipo.Size = new System.Drawing.Size(38, 16);
             this.Lb_Tipo.TabIndex = 4;
             this.Lb_Tipo.Text = "Tipo:";
             // 
@@ -258,7 +259,7 @@
             this.Lb_ContA.Location = new System.Drawing.Point(11, 120);
             this.Lb_ContA.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lb_ContA.Name = "Lb_ContA";
-            this.Lb_ContA.Size = new System.Drawing.Size(179, 18);
+            this.Lb_ContA.Size = new System.Drawing.Size(160, 16);
             this.Lb_ContA.TabIndex = 3;
             this.Lb_ContA.Text = "Contenido de Azucar (g/l):";
             // 
@@ -269,7 +270,7 @@
             this.Lb_Elaboracion.Location = new System.Drawing.Point(11, 89);
             this.Lb_Elaboracion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lb_Elaboracion.Name = "Lb_Elaboracion";
-            this.Lb_Elaboracion.Size = new System.Drawing.Size(141, 18);
+            this.Lb_Elaboracion.Size = new System.Drawing.Size(129, 16);
             this.Lb_Elaboracion.TabIndex = 2;
             this.Lb_Elaboracion.Text = "Año de Elaboración:";
             // 
@@ -280,7 +281,7 @@
             this.Lb_Presentacion.Location = new System.Drawing.Point(11, 57);
             this.Lb_Presentacion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lb_Presentacion.Name = "Lb_Presentacion";
-            this.Lb_Presentacion.Size = new System.Drawing.Size(99, 18);
+            this.Lb_Presentacion.Size = new System.Drawing.Size(89, 16);
             this.Lb_Presentacion.TabIndex = 1;
             this.Lb_Presentacion.Text = "Presentación:";
             this.Lb_Presentacion.Click += new System.EventHandler(this.label2_Click);
@@ -292,7 +293,7 @@
             this.Lb_Nombre.Location = new System.Drawing.Point(11, 28);
             this.Lb_Nombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lb_Nombre.Name = "Lb_Nombre";
-            this.Lb_Nombre.Size = new System.Drawing.Size(66, 18);
+            this.Lb_Nombre.Size = new System.Drawing.Size(59, 16);
             this.Lb_Nombre.TabIndex = 0;
             this.Lb_Nombre.Text = "Nombre:";
             this.Lb_Nombre.Click += new System.EventHandler(this.label1_Click_1);

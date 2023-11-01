@@ -36,7 +36,7 @@ namespace Logica
             return personas;
         }
 
-        public Persona BuscarId(string usuario)
+        public Persona BuscarUsuario(string usuario)
         {
             foreach (var item in personas)
             {

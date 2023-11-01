@@ -18,6 +18,9 @@ namespace Entidad
         public string Usuario { get; set; }
         public string Contraseña { get; set; }
 
+        public Persona()
+        {
+        }
         public Persona(string nombre, string apellido, string correo, string celular, string fechaRegistro, string tipoUsuario, string usuario, string contraseña)
         {
             Nombre = nombre;
@@ -30,8 +33,9 @@ namespace Entidad
             Contraseña = contraseña;
         }
 
-        public Persona()
+        public override string ToString()
         {
+            return $"{Nombre};{Apellido};{Correo};{Celular};{FechaRegistro};{TipoUsuario};{Usuario};{Contraseña}";
         }
 
     }

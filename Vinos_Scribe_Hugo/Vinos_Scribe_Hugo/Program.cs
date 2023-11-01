@@ -19,8 +19,7 @@ namespace Vinos_Scribe_Hugo
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form_Principal());
-            //mk
-            int mk;
+            
         }
     }
 }

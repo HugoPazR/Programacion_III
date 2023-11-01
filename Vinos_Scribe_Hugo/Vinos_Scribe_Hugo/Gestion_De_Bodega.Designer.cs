@@ -36,12 +36,12 @@
             // Lb_GestionByP
             // 
             this.Lb_GestionByP.AutoSize = true;
-            this.Lb_GestionByP.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.Lb_GestionByP.BackColor = System.Drawing.Color.Transparent;
             this.Lb_GestionByP.Font = new System.Drawing.Font("Rockwell", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lb_GestionByP.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Lb_GestionByP.ForeColor = System.Drawing.Color.White;
             this.Lb_GestionByP.Location = new System.Drawing.Point(37, 16);
             this.Lb_GestionByP.Name = "Lb_GestionByP";
-            this.Lb_GestionByP.Size = new System.Drawing.Size(742, 53);
+            this.Lb_GestionByP.Size = new System.Drawing.Size(633, 46);
             this.Lb_GestionByP.TabIndex = 0;
             this.Lb_GestionByP.Text = "Gestión De Bodega y Proveedores";
             this.Lb_GestionByP.Click += new System.EventHandler(this.Lb_GestionU_Click);
@@ -49,7 +49,7 @@
             // Gbox_GesstionByP
             // 
             this.Gbox_GesstionByP.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Gbox_GesstionByP.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.Gbox_GesstionByP.BackColor = System.Drawing.Color.DarkRed;
             this.Gbox_GesstionByP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Gbox_GesstionByP.Controls.Add(this.Lb_GestionByP);
             this.Gbox_GesstionByP.Cursor = System.Windows.Forms.Cursors.Default;
